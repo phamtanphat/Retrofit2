@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ptp.phamtanphat.retrofit2.MainActivity">
+
+    <TextView
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#f20"
+        android:id="@+id/textviewtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thong tin nguoi dung" />
+    <EditText
+        android:hint="Nhap user"
+        android:id="@+id/edittextuser"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textviewtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Nhap password"
+        android:id="@+id/edittextpassword"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/edittextuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Dang nhap"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/edittextpassword"
+        android:id="@+id/buttondangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"
+        android:text="Dang ky"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/edittextpassword"
+        android:id="@+id/buttondangky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
